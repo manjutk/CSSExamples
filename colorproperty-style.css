@@ -1,0 +1,46 @@
+#hid{
+    color:hsl(217, 90%, 61%)
+}
+.para{
+    color:#42f566
+}
+.sub-sup{
+    color:rgba(245, 66, 188,50)
+}
+.it-bo{
+    color:rgb(245, 117, 66)
+}
+.div-bgcolor{
+    background: blue; 
+    background-image:url("https://images.newindianexpress.com/uploads/user/imagelibrary/2019/3/7/w900X450/Take_in_the_Scenery.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:250px;
+    width:300px
+}
+i{
+    background-color: azure;
+}
+/* body{
+    background-image:url("https://images.newindianexpress.com/uploads/user/imagelibrary/2019/3/7/w900X450/Take_in_the_Scenery.jpg");
+} */
+/* .gradient-color{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, rgb(50, 168, 82),rgb(50, 80, 168));
+} */
+/* .gradient-color{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(-50deg, rgb(50, 168, 82),rgb(50, 80, 168));
+} */
+/* .gradient-color{
+    height: 200px;
+    width: 200px;
+    background:radial-gradient(rgb(50, 168, 82),rgb(50, 80, 168));
+} */
+.gradient-color{
+    height: 200px;
+    width: 200px;
+    background:radial-gradient(rgb(50, 168, 82) 20%,rgb(50, 80, 168) 30%, red );
+}

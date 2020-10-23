@@ -1,0 +1,34 @@
+
+.htitle
+{
+    color:blue
+}
+h3:hover
+{
+    color:red
+}
+li:first-child
+{
+color:greenyellow
+}
+li:nth-child(2)
+{
+    color:rgb(123,45,90)
+}
+li:last-child
+{
+    color:hsl(120,60%,80%)
+}
+li:only-child
+{
+color:goldenrod
+}
+
+#linkstyle:link
+{
+color:magenta
+}
+a:visited
+{
+    color:rosybrown
+}

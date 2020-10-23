@@ -1,0 +1,12 @@
+h3 + a{
+    color:red
+}
+textarea ~ button{
+    color:green
+}
+ul>li{
+    color:palegreen
+}
+ ul li{
+    color:peru
+} 

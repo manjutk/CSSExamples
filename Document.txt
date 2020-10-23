@@ -1,0 +1,24 @@
+Selectors: What element you are targeting to style
+specificity
+pseudo
+attribute
+advanced
+
+Property:
+color: varieties--rgb, rgba, hsl, hex
+Types of colors: use colorpicker from google
+background-color, background-image
+background-repeat:no-repeat/repeat(default)
+background-size:cover/contain
+you can use just background to specify any thing related to background
+opacity:shading
+Gradients:transition between colors(circle, linear)
+linear-graient(to right/left/top/bottom/bottom right/ you can give degrees also etc)
+
+
+Block: Inside {} you define style.
+each seperated by ;
+combination of property:value pair
+
+
+

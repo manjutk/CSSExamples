@@ -1,0 +1,13 @@
+label[class=lbl]{
+    color:green
+}
+img[alt^="con"]{
+    border:10px solid red
+}
+h2-class1{
+    color:navy
+}
+h2[class~="class2selector"]{
+    border:5px solid pink;
+    background:green
+}
