@@ -1,12 +1,22 @@
+Use sht+option+f to make code aligned
+multiple cursors: alt+cmd+up/down arrow
+
+
 Selectors: What element you are targeting to style
 specificity
 pseudo
 attribute
 advanced
 
+Block: Inside {} you define style.
+each seperated by ;
+combination of property:value pair
+
 Property:
 color: varieties--rgb, rgba, hsl, hex
-Types of colors: use colorpicker from google
+
+Types of colors: 
+use colorpicker from google
 background-color, background-image
 background-repeat:no-repeat/repeat(default)
 background-size:cover/contain
@@ -16,9 +26,63 @@ Gradients:transition between colors(circle, linear)
 linear-graient(to right/left/top/bottom/bottom right/ you can give degrees also etc)
 
 
-Block: Inside {} you define style.
-each seperated by ;
-combination of property:value pair
 
 
+Types of Units:
+absolute: inch, cm, mm, -won't affect by anything around them
+relative:%, em, vw, vh--affect by parent element or by surrounding elements
+view-port-relative to body width/height
+px, pt, pc  is absolute but relative to screen
+better use relative units if you are going to use in different devices
 
+Text manipulation:
+text-decoration:none,underline,line-through,overline
+text-transform:
+Font manipulation:
+font-style
+font-weight
+font-size
+external fonts from google
+
+CSS Box model:
+content, padding, border, margin
+use relative units for width and absolute units for height
+border: thickness style(dotted, solid) color
+
+Display and Float properties:
+Manipulate website
+display:--block, inline, none, inline-block
+float:--right, left, inherit
+
+CSS Flexbox:
+two parts: container, flex elements
+use properties to manipulate the container and items
+layout
+
+display:flex
+flex-direction: column, column-reverse, row, row-reverse
+flex-wrap: wrap, no wrap, wrap-reverse
+horizontal--justify-content: center, flex-end, space-around, space-between
+order:
+flex-grow, flex-basis, flex-shrink
+flex-grow: tells how much space the item takes indide the container
+When you go minimum width then it goes to default value of flex-shrink
+that's where you use shrink to tell don't shrink the flex-grow item
+flex-shrink default is 1
+flex-grow default is 0
+if you give flex-shrink value to 3 then that item shrinks three times faster than other items
+see the shrink effect by resizing the window
+
+align-self overides align-items:align-self:center,flex-start,flex-end
+
+Grid VS Flexbox:
+grid works on both directions(width+height)
+Flexbox works mainly on width
+
+Grid:
+grid-template-columns, grid-template-rows
+you can use auto as default value. the grid adjusts the rows/column sizes
+Justify-content: center, start, end,space-around, space-evenly
+align-content:space-between, space-evenly, start, end, center
+grid-column-gap, grid-row-gap, grid-gap
+grid-column, grid-row:1/2 or 1/span 2

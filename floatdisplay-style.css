@@ -1,0 +1,9 @@
+.img-float{
+    float:right;
+}
+.p-float{
+    float:inherit;
+}
+.img1-display{
+    display:none;
+}
