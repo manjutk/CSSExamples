@@ -1,6 +1,6 @@
 Use sht+option+f to make code aligned
 multiple cursors: alt+cmd+up/down arrow
-
+https://code.visualstudio.com/Docs/editor/versioncontrol
 
 Selectors: What element you are targeting to style
 specificity
