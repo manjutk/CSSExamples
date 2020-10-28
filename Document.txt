@@ -86,3 +86,18 @@ Justify-content: center, start, end,space-around, space-evenly
 align-content:space-between, space-evenly, start, end, center
 grid-column-gap, grid-row-gap, grid-gap
 grid-column, grid-row:1/2 or 1/span 2
+grid-area:column start row start column end row end
+
+
+Transition:
+for all browser support use -webkit-transition/ -moz- / -o-
+transition: all 1s ease
+Transform:translate, skew, rotate, scale
+
+matrix-takes 6 values(scalex, skewx, skewy, scaley, translatex, translatey) -rotate don't work with matrix
+
+Animation:
+@keyframe
+  animation-name: animation-duration: 4s;animation-timing-function: ease;
+   animation-delay: 2s; animation-iteration-count: 2, animation-direction:normal, reverse, alternate, alternate-reverse
+   shothand: animation:takes 5 values(name, duration, timing, delay, iteration count, direction)

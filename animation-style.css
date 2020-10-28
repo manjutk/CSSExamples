@@ -1,0 +1,27 @@
+@keyframes translate-element{
+    /* from{background: red;}
+    to{background: bisque;} */
+    0%{background: blue;transform: translate(0px,0px);}
+    50%{background: burlywood;;transform: translate(10px,10px);}
+    100%{background: brown;;transform: translate(20px,20px);}
+}
+#p-key{
+    /* animation-name: translate-element;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: reverse; 
+    animation:translate-element 4s ease 2s 2 reverse;*/
+    -webkit-animation:translate-element 4s ease 2s 2 reverse ;
+    -moz-animation:translate-element 4s ease 2s 2 reverse ;
+    -o-animation: translate-element 4s ease 2s 2 reverse;
+    -ms-zoom-animation: translate-element 4s ease 2s 2 reverse;
+}
+.p-cl{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: cornsilk;
+    color:blueblack;
+}
